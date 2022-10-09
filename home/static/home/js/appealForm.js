@@ -65,7 +65,7 @@ document.addEventListener("DOMContentLoaded", () => {
 			option: optionAppeal
 		}
 
-		await fetch("http://dfvrn.pythonanywhere.com/api/appeal", {
+		await fetch("https://dfvrn.pythonanywhere.com/api/appeal", {
 			method: "POST", headers: {
 				'Accept': 'application/json', 'Content-Type': 'application/json'
 			}, body: JSON.stringify(appealForm)
